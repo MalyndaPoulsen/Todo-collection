@@ -1,0 +1,64 @@
+body{
+    /*background: url('app/img/To-Do List copy.jpg') center no-repeat;*/
+     background: url('app/img/enigma2.jpg') center no-repeat;
+    background-size: cover;
+    height: 900px;
+    margin: 0 0 0 0;
+    position: relative;
+}
+header{
+    background-color: #05171f;
+    color:#c16b15;
+    margin-top:0;
+    height: 70px;
+}
+h1{
+    color: #c16b15;
+    margin-top: 5px;
+    margin-bottom:0px;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-family: 'Antic Slab', serif;
+   font-weight: 100px;
+}
+li{
+    padding-top:20px;
+    font-family: 'Antic Slab', serif;
+}
+.main-content{
+    margin-top:25px;
+    text-align:center;
+  
+}
+/*move scrollStyle to the center*/
+.ScrollStyle{
+    width: 400px;
+    text-align:center;
+     margin-top: 5px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+h4{
+    font-family: 'Antic Slab', serif;
+    margin-top:0px;
+}
+h2{
+    font-family: 'Antic Slab', serif, strong;
+}
+input{
+    font-family: 'Antic Slab', serif;
+    border-radius: 5px;
+}
+button{
+    font-family: 'Antic Slab', serif;
+    border: 2 px solid darkgrey;
+    border-radius: 25px;
+}
+.task-list{
+    font-family: 'Antic Slab', serif;
+}
+.container-fluid{
+    margin-left: 10px;
+}
