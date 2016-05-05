@@ -6,26 +6,26 @@ angular.module("todo-collection")
   
     .state('todo',{
         url: '/todo',
-        templateUrl: 'components/todo/todo.html',
-        controller: 'todo-controller',
+        templateUrl: 'components/todo.html',
+        controller: 'TodoController',
         controllerAs: 'tc'
     })
-      .state('calculator',{
+    .state('calculator',{
         url: '/calculator',
-        templateUrl: 'components/calculator/calculator.html',
-        controller: 'calculator-controller',
+        templateUrl: 'components/calculator.html',
+        controller: 'CalculatorController',
         controllerAs: 'cc'
     })
-         .state('grocery',{
+    .state('grocery',{
         url: '/grocery',
-        templateUrl: 'components/grocery/grocery.html',
-        controller: 'grocery-controller',
+        templateUrl: 'components/grocery.html',
+        controller: 'GroceryController',
         controllerAs: 'gc'
     })
-           .state('brillianIdeas',{
+    .state('brilliantIdeas',{
         url: '/brilliantIdeas',
-        templateUrl: 'components/brilliantIdeas/brilliantIdeas.html',
-        controller: 'brilliantIdeas-controller',
+        templateUrl: 'components/brilliantIdeas.html',
+        controller: 'BrilliantIdeasController',
         controllerAs: 'bc'
     })
     

@@ -43,10 +43,10 @@
             </div>
             <div class="row">
                 <ul class="nav nav-tabs">
-                    <li style="margin-top:-50px !important;" role="presentation" class="active"><a href="#">Daily To-Do List</a></li>
-                    <li style="margin-top:-50px !important;" role="presentation"><a href="#">Grocery List</a></li>
-                    <li style="margin-top:-50px !important;" role="presentation"><a href="#">Car Maintentance</a></li>
-                    <li style="margin-top:-50px !important;" role="presentation"><a ng-click="mc.setActiveView('calculators')">Calculators</a></li>
+                    <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="todo">Daily To-Do List</a></li>
+                    <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="grocery">Grocery List</a></li>
+                    <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="brilliantIdeas">Brilliant Ideas</a></li>
+                    <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="calculator">Calculators</a></li>
                 </ul>
             </div>
         </div>    
@@ -62,14 +62,13 @@
     
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     
     <script src="app/app.js"></script>
     <script src="app-routes.js"></script>
     
     
-    <script src="components/todo-controller.js"></script>
-    <script src="components/todo-service.js"></script>
+    <script src="components/TodoController.js"></script>
+    <script src="components/TodoService.js"></script>
     
     <script src="components/calculator-controller.js"></script>
     

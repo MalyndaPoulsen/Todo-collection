@@ -1,1 +1,1 @@
-var app= angular.module('todo-collection', []);
+angular.module('todo-collection', ['ui.router']);
