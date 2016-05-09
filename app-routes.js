@@ -10,12 +10,7 @@ angular.module("todo-collection")
         controller: 'TodoController',
         controllerAs: 'tc'
     })
-    .state('calculator',{
-        url: '/calculator',
-        templateUrl: 'components/calculator.html',
-        controller: 'CalculatorController',
-        controllerAs: 'cc'
-    })
+ 
     .state('grocery',{
         url: '/grocery',
         templateUrl: 'components/grocery.html',
@@ -28,5 +23,12 @@ angular.module("todo-collection")
         controller: 'BrilliantIdeasController',
         controllerAs: 'bc'
     })
+    .state('brilliantIdeas2',{
+        url: '/brilliantIdeas2',
+        templateUrl: 'components/brilliantIdeas2.html',
+        controller: 'BrilliantIdeas2Controller',
+        controllerAs: 'bcc'
+    })
+
     
 })

@@ -19,25 +19,7 @@
             </div>
         </div>
         </div>
-<!--<div class="main-container image-responsive">
-            <form class="todo-form form form-inline" ng-submit="tc.addTodo(tc.newTodo)">
-                <input placeholder="Task" class="form-control" type="text" ng-model="tc.newTodo.todo">
-                <input placeholder="Responsible Party" class="form-control" type="text" ng-model="tc.newTodo.responsibleParty">
-                <input placeholder="Due Date" class="form-control" type="text" ng-model="tc.newTodo.dueBy">
-                <!--<input placeholder="Photo Url" class="form-control" type="text" ng-model="tc.newTodo.photo">-->
-                <!--<button type="submit" class="btn btn-default">Add</button>
-                
-            </form>
         
-        <div class="row-list">
-            <div class="col-sm-4 col-sm-offset-4 text-center ScrollStyle">
-                <h2>To-Do List..</h2>
-                <ul class="list">
-                    <li ng-repeat="todo in tc.list" ng-click="tc.toggleItemState(todo)" ng-class="{'strike': todo.completed}">
-                        {{todo.todo}}: {{todo.responsibleParty}}- {{todo.dueBy | date:'GGGG'}}
-                        <span class="badge" ng-click="tc.removeTodo($index)">X</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        </div>-->
+<div ng-app="" ng-init="quantity=1;cost=5">
+<p>Total in dollar: {{ quantity * cost }}</p>
+</div>

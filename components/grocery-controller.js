@@ -1,21 +1,3 @@
-// angular.module('todo-collection')
-// .controller('GroceryController', function($scope){
-//     var gc = this;
-//     gc.groceryList= [];
-        
-//       $scope.addItem = function(newItem) {
-//           $scope.groceryList.push(newItem)
-//           $scope.newItem = '';
-//         $scope.ItemPurchased= 0;
-//    }
-//       $scope.reset= function(){
-//                 gc.groceryList=[];
-//         $scope.itemPurchased= 0;
-//    }
-//       $scope.removeItem = function(index) {
-//           $scope.groceryList.splice(index, 1);
-//     }
-// });
 
 angular.module('todo-collection') 
 .controller('GroceryController', function() {
@@ -31,10 +13,4 @@ angular.module('todo-collection')
     }
 });
     
-    
-    
-    // gc.showDetails= function(items){
-    //     gc.show = true;
-    //     gc.selectedItems;
-    // }
-    // gc.items = GroceryService.getAllItems();
+

@@ -1,0 +1,31 @@
+<!--"hello from Brilliant Ideas 2"-->
+<div class="calculators">
+    Select a topic:
+    <select ng-model="bcc.operation" class="form-control">
+    <option value="inches-to-feet">inches to feet</option>
+    <option value="miles-to-kilometers">miles to kilometers</option>
+    <option value="pounds-to-kilos">pounds-to-kilos</option>
+</select>
+
+    <form ng-submit="bcc.cal(bcc.expression)">
+        <!--<div ng-switch="bcc.operation">-->
+        <div ng-show="bcc.operation == 'inches-to-feet'">
+            <h1>inches-to-feet</h1>
+            <input type="text" ng-model="bcc.expression">
+            <button type="submit" value="Submit"></button>
+        </div>
+        <div ng-show="bcc.operation == 'miles-to-kilometers'">
+            <h1>miles-to-kilometers</h1>
+            <input type="text" ng-model="bcc.expression"><br>
+            <input type="submit" value="Submit" />
+        </div>
+    </form>
+    <div ng-show="cars">
+        <h1>Cars</h1>
+        <p>Read about cars.</p>
+    </div>
+</div>
+<div>
+<span>{{bcc.newExpression}}</span>
+</div>
+

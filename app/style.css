@@ -111,3 +111,34 @@ footer{
 .todo-form{
    padding-top:25px;
 }
+#ideaList{
+    background: #05171f url('/img/background.jpg') center center no-repeat;
+    background-size:cover;
+    height: 800px;
+    margin: 0 0 0 0;
+    position: relative;
+}
+#note-pad{
+    background: url('/img/BrilliantIdea3.png') center no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 400px;
+    top: 100px;
+    left: 0px;
+    position: absolute; 
+}
+
+#mug{
+    background: url('/img/brilliantIdeaMug.png') no-repeat;
+    background-size: cover;
+    height: 442px;
+    width: 434px;
+    top: 302px;
+    left: 442px;
+    position: relative;
+   
+}
+.calculators{
+    margin-top: 200px;
+    height:500px;
+}

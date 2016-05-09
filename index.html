@@ -2,8 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/plugins/bootstrap/dist/css/bootstrap.css">
     <link href='https://fonts.googleapis.com/css?family=Antic+Slab' rel='stylesheet' type='text/css'>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="app/style.css">
     
@@ -46,7 +47,7 @@
                     <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="todo">Daily To-Do List</a></li>
                     <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="grocery">Grocery List</a></li>
                     <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="brilliantIdeas">Brilliant Ideas</a></li>
-                    <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="calculator">Calculators</a></li>
+                    <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="brilliantIdeas2">Calculators</a></li>
                 </ul>
             </div>
         </div>    
@@ -60,8 +61,10 @@
         
     </footer>
     
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="assets/plugins/angular/angular.js"></script>
+    <script src="assets/plugins/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="assets/plugins/angularfire/dist/angularfire.js"></script>
+    <script src="assets/plugins/firebase/firebase.js"></script>
     
     <script src="app/app.js"></script>
     <script src="app-routes.js"></script>
@@ -70,12 +73,13 @@
     <script src="components/TodoController.js"></script>
     <script src="components/TodoService.js"></script>
     
-    <script src="components/calculator-controller.js"></script>
-    
     <script src="components/grocery-controller.js"></script>
     <script src="components/grocery-service.js"></script>
     
     <script src="components/brilliantIdeas-controller.js"></script>
     <script src="components/brilliantIdeas-service.js"></script>
+    
+<script src="components/brilliantIdeas2-controller.js"></script>
+ 
 </body>
 </html>
