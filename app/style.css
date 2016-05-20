@@ -1,6 +1,7 @@
-.main-calculator{
-  
-     background: url('/img/enigmacoffee.jpg') center no-repeat;
+
+
+#calculators{
+    background: url('/img/enigmacoffee.jpg') center no-repeat;
     background-size: cover;
     height: 900px;
     margin: 0 0 0 0;
@@ -10,17 +11,20 @@ header{
     background-color: #05171f;
     color:#c16b15;
     margin-top:0;
+    margin-bottom:1px;
     height: 70px;
+    
 }
-h1{
+#title h1{
     color: #c16b15;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom:0px;
     margin-left: 30px;
     padding-top: 10px;
     padding-bottom: 0px;
-    text-align: left;
-    font-family: 'Antic Slab', serif;
+   
+    font-family: 'Special Elite', cursive;
+    /*font-family: 'Antic Slab', serif;*/
    font-weight: 100px;
 }
 li{
@@ -38,15 +42,33 @@ li{
     position: bottom center;
     margin-left:150px;
 }
+#grocery-form{
+    margin-top:20px;
+}
+
+#grocery-reciept .ScrollStyle{
+    margin-top:5px;
+    margin-left:-20px;
+    width: 250px;
+    text-align:center;
+    max-height: 230px;
+    overflow-y: scroll;
+}
+#grocery-reciept h4{
+    margin-bottom:12px;
+}
+#grocery-reciept li{
+    margin-left: -30px;
+}
 .ScrollStyle{
     /*padding-top:20px;*/
     margin-top:100px;
     width: 250px;
     text-align:center;
     max-height: 225px;
-    overflow-y: scroll;
-    
+    overflow-y: scroll;   
 }
+
 h2{
     font-family: 'Antic Slab', serif, strong;
     /*margin-top:50px;*/
@@ -91,13 +113,34 @@ footer{
     position: relative;
    
 }
-.grocery-container{
-    background:grey url('/img/Register.jpg') center center no-repeat;
+#grocery-container{
+    background:grey url('/img/Register3.jpg') center center no-repeat;
     background-size: cover;
     height: 800px;
     margin: 0 0 0 0;
     position: relative;
+   text-align:center;
 }
+#form{
+    text-align:center;
+}
+#register{
+    text-align:center;
+}
+#grocery-reciept{
+    text-align:center;
+}
+#grocery-list{
+    display: inline-block;
+}
+#grocery-list li{
+    margin-top:0px;
+    padding-top:0;
+}
+#grocery-list ul{
+  list-style-type: none;
+}
+
 .list li{
     padding-top:0;
     padding-bottom:0;
@@ -112,33 +155,156 @@ footer{
    padding-top:25px;
 }
 #ideaList{
-    background: #05171f url('/img/background.jpg') center center no-repeat;
+    background: #05171f url('/img/backgroundIdeas.jpg') center center no-repeat;
     background-size:cover;
     height: 800px;
     margin: 0 0 0 0;
     position: relative;
+    /*text-align: center;*/
 }
 #note-pad{
     background: url('/img/BrilliantIdea3.png') center no-repeat;
     background-size: cover;
-    height: 550px;
-    width: 400px;
-    top: 100px;
-    left: 0px;
-    position: absolute; 
+    height: 700px;
+    width: 505px;
 }
 
-#mug{
-    background: url('/img/brilliantIdeaMug.png') no-repeat;
-    background-size: cover;
-    height: 442px;
-    width: 434px;
-    top: 302px;
-    left: 442px;
-    position: relative;
-   
+
+#grocery-form{
+    margin-top:20px;
 }
+
+#ScrollStyle{
+    margin-top:24px;
+    margin-left:0px;
+    width: 480px;
+    padding-left: 25px;
+    padding-right: 15px;
+    text-align:center;
+    height:600px;
+    overflow-y: scroll;
+}
+#note-pad h2{
+    margin-bottom:50px;
+    padding-top:30px;
+}
+#note-pad  li{
+    margin-left: -20px;
+    margin-bottom:4px;
+     list-style-type: none;
+}
+#form-pad{
+    margin-top:20px;
+}
+.brilliant-list li{
+    margin-top:0px;
+    padding-top:2px;
+}
+
+
 .calculators{
     margin-top: 200px;
     height:500px;
+}
+p{
+   font-family: 'Antic Slab', serif;
+   font-weight: 100px;
+}
+.welcome-container{
+    background: #05171f url('/img/homepage.jpg') center center no-repeat;
+    background-size:cover;
+    height: 800px;
+    margin: 0 0 0 0;
+    position: relative;
+  
+ 
+}
+.welcome h1{
+    font-family: 'Dynalight', cursive;
+    text-align: center;
+    font-size: 160px;
+    padding-top:0px;
+      color: #c16b15;
+      margin-top:0px;
+}
+#pad{
+   text-align:center;
+
+}
+#form-pad{
+  display: inline-block;
+}
+#enigma-form{
+text-align:center;
+}
+#answer .span{
+ max-width: 160px;
+    color:black;
+ text-align:center;
+}
+#answer{
+    
+    padding-left:50px;
+    padding-right:50px;
+       font-family: 'Antic Slab', serif;  
+        font-size: 25px;
+}
+#dropdown label{
+    color: white;
+       font-family: 'Antic Slab', serif;
+   font-size: 18px;
+   border: 1px solid darkgoldenrod;
+   border-radius: 3px;
+   padding: 4 3 4 3;
+   margin-top:10px;
+}
+#pad-row{
+    text-align:center;
+}
+/*.imgClass { 
+    background-image: url('/img/enterBTN.png') no-repeat;
+  height:150px;
+    position:absolute;
+}
+.imgClass:hover { 
+    border: 2px solid ;
+    border-radius: 30px; 
+}
+.imgClass:active { 
+    border: 2px solid darkgoldenrod;
+    border-radius: 0px; 
+}*/
+.imgClass {     
+    background-image: url('/img/enterBTN.png');
+    background-size: 100px;
+    background-position: 380px 0px;
+    background-repeat: no-repeat;
+    width: 480px;
+    height: 100px;
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: 0;
+}
+      /*-webkit-transition: width .2s; /* Safari */
+    /*transition: width .2s;*/
+/*this is hilarious!
+.imgClass:hover{
+    width:320px;
+    height: 320px;
+}*/
+.imgClass:active{
+    background-size: 110px;
+}
+
+
+/*.imgClass:hover{ 
+}
+imgClass:active{
+  background-size:  100px;
+}*/
+
+.enterbtn{
+    margin-top: 20px;
+    margin-left: 100px;
 }

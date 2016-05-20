@@ -1,9 +1,10 @@
       <div class="main-container image-responsive">
-            <form class="todo-form form form-inline" ng-submit="tc.addTodo(tc.newTodo)">
+            <form class="todo-form form-group form-inline" ng-submit="tc.addTodo(tc.newTodo)">
                 <input placeholder="Task" class="form-control" type="text" ng-model="tc.newTodo.todo">
                 <input placeholder="Responsible Party" class="form-control" type="text" ng-model="tc.newTodo.responsibleParty">
                 <input placeholder="Due Date" class="form-control" type="text" ng-model="tc.newTodo.dueBy">
                 <button type="submit" class="btn btn-default">Add</button>
+                 <button type="clear" class="btn btn-default">Clear</button>
                 
             </form>
         

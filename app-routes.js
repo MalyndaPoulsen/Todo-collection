@@ -2,8 +2,11 @@ angular.module("todo-collection")
 .config(function($stateProvider){
     $stateProvider
     
-    $stateProvider
-  
+       .state('home',{
+        url: '',
+        templateUrl: 'components/home.html'
+    })
+   
     .state('todo',{
         url: '/todo',
         templateUrl: 'components/todo.html',

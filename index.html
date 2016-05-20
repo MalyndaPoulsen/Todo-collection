@@ -4,8 +4,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/plugins/bootstrap/dist/css/bootstrap.css">
     <link href='https://fonts.googleapis.com/css?family=Antic+Slab' rel='stylesheet' type='text/css'>
-    
+    <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Dynalight' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="app/style.css">
     
 </head>
@@ -14,28 +15,28 @@
     <!--<div ng-controller="MainController as mc">-->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-4 col-sm-offset-4">
+                <div id="title" class="col-sm-4 col-sm-offset-4">
                     <h1 class="text-center">To-Do-List</h1>
                 </div>
                 <div class="col-sm-4">
                     <ul class="list-inline text-right">
-                        <li>
+                        <!--<li>
                             <a class="btn btn-social-icon btn-twitter">
                                 <span class="fa fa-twitter"></span>
                             </a>
-                        </li>
+                        </li>-->
                         <li>
-                            <a class="btn btn-social-icon btn-facebook">
+                            <a href="https://www.facebook.com/malynda.poulsenjones" class="btn btn-social-icon btn-facebook">
                                 <span class="fa fa-facebook"></span>
                             </a>
                         </li>
                         <li>
-                            <a class="btn btn-social-icon btn-linkedin">
+                            <a href="https://www.linkedin.com/in/malynda-poulsen-9608487?trk=nav_responsive_tab_profile" class="btn btn-social-icon btn-linkedin">
                                 <span class="fa fa-linkedin"></span>
                             </a>
                         </li>
                         <li>
-                            <a class="btn btn-social-icon btn-github">
+                            <a href="https://github.com/MalyndaPoulsen" class="btn btn-social-icon btn-github">
                                 <span class="fa fa-github"></span>
                             </a>
                         </li>
@@ -44,10 +45,11 @@
             </div>
             <div class="row">
                 <ul class="nav nav-tabs">
+                    <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="home">Home</a></li>
                     <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="todo">Daily To-Do List</a></li>
-                    <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="grocery">Grocery List</a></li>
-                    <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="brilliantIdeas">Brilliant Ideas</a></li>
                     <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="brilliantIdeas2">Calculators</a></li>
+                    <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="brilliantIdeas">Brilliant Ideas</a></li>
+                    <li style="margin-top:-50px !important;" role="presentation"><a ui-sref="grocery">Grocery List</a></li>
                 </ul>
             </div>
         </div>    
@@ -80,6 +82,10 @@
     <script src="components/brilliantIdeas-service.js"></script>
     
 <script src="components/brilliantIdeas2-controller.js"></script>
+
+
+<!--<script src="components/home-controller.js"></script>-->
+
  
 </body>
 </html>

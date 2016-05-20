@@ -1,31 +1,42 @@
 <!--"hello from Brilliant Ideas 2"-->
-<div class="calculators">
-    Select a topic:
-    <select ng-model="bcc.operation" class="form-control">
-    <option value="inches-to-feet">inches to feet</option>
-    <option value="miles-to-kilometers">miles to kilometers</option>
-    <option value="pounds-to-kilos">pounds-to-kilos</option>
-</select>
+<div id="calculators" class="image-responsive">
+    <div id="enigma-form" class=" row form-inline">
+        <form class="col-xs-12  form-group" ng-submit="bcc.cal(bcc.newExpression)">
 
-    <form ng-submit="bcc.cal(bcc.expression)">
-        <!--<div ng-switch="bcc.operation">-->
-        <div ng-show="bcc.operation == 'inches-to-feet'">
-            <h1>inches-to-feet</h1>
-            <input type="text" ng-model="bcc.expression">
-            <button type="submit" value="Submit"></button>
-        </div>
-        <div ng-show="bcc.operation == 'miles-to-kilometers'">
-            <h1>miles-to-kilometers</h1>
-            <input type="text" ng-model="bcc.expression"><br>
-            <input type="submit" value="Submit" />
-        </div>
-    </form>
-    <div ng-show="cars">
-        <h1>Cars</h1>
-        <p>Read about cars.</p>
-    </div>
-</div>
-<div>
-<span>{{bcc.newExpression}}</span>
-</div>
+            <div id="dropdown" class="selector">
+                <label for="dropdown">Select a Conversion</label>
+                <select class="form-control" ng-model="bcc.operation">
+        <option value="inches-to-feet">Inches to Feet</option>
+        <option value="feet-to-inches">Feet to Inches</option>
+        
+        <option value="miles-to-kilometers">Miles to Kilometers</option>
+        <option value="kilometers-to-miles">Kilometers to Miles</option>
+        
+        <option value="pounds-to-kilos">Pounds to Kilograms</option>
+        <option value="kilos-to-pounds">Kilograms to Pounds</option>
+        
+        <option value="fahrenheit-to-celcius">Fahrenheit to Celcius</option>
+         <option value="celcius-to-fahrenheit">Celcius to Fahrenheit</option>
+        
+        </select>
 
+
+
+                <input type="text" placeholder="Enter a Number" class="form-control" ng-model="bcc.newExpression">
+        </form>
+        <div class="enterbtn">
+            <input type="submit" value="" class="imgClass" />
+
+        </div>
+
+
+        <!--<input type="submit" value=""  class="imgClass"/> -->
+
+
+        <div class="row answer">
+            <div id="answer" class="col-xs-4 col-xs-offset-4">
+            <span>Result: {{bcc.result}}</span>
+        </div>
+        </div>
+
+        </div>
