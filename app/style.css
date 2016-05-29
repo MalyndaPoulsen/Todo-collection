@@ -286,23 +286,12 @@ text-align:center;
     cursor: pointer;
     outline: 0;
 }
-      /*-webkit-transition: width .2s; /* Safari */
-    /*transition: width .2s;*/
-/*this is hilarious!
-.imgClass:hover{
-    width:320px;
-    height: 320px;
-}*/
+
 .imgClass:active{
     background-size: 110px;
 }
 
 
-/*.imgClass:hover{ 
-}
-imgClass:active{
-  background-size:  100px;
-}*/
 
 .enterbtn{
     margin-top: 20px;
