@@ -1,7 +1,7 @@
 
 
 #calculators{
-    background: url('/img/enigmacoffee.jpg') center no-repeat;
+    background: url('img/enigmacoffee.jpg') center no-repeat;
     background-size: cover;
     height: 900px;
     margin: 0 0 0 0;
@@ -106,7 +106,7 @@ footer{
     height: 70px;
 }
 .main-container{
-    background:grey url('/img/To-Do ListCoffee.jpg') center center no-repeat;
+    background:grey url('img/To-Do ListCoffee.jpg') center center no-repeat;
     background-size: cover;
     height: 800px;
     margin: 0 0 0 0;
@@ -114,7 +114,7 @@ footer{
    
 }
 #grocery-container{
-    background:grey url('/img/Register3.jpg') center center no-repeat;
+    background:grey url('img/Register3.jpg') center center no-repeat;
     background-size: cover;
     height: 800px;
     margin: 0 0 0 0;
@@ -155,7 +155,7 @@ footer{
    padding-top:25px;
 }
 #ideaList{
-    background: #05171f url('/img/backgroundIdeas.jpg') center center no-repeat;
+    background: #05171f url('img/backgroundIdeas.jpg') center center no-repeat;
     background-size:cover;
     height: 800px;
     margin: 0 0 0 0;
@@ -163,7 +163,7 @@ footer{
     /*text-align: center;*/
 }
 #note-pad{
-    background: url('/img/BrilliantIdea3.png') center no-repeat;
+    background: url('img/BrilliantIdea3.png') center no-repeat;
     background-size: cover;
     height: 700px;
     width: 505px;
@@ -211,7 +211,7 @@ p{
    font-weight: 100px;
 }
 .welcome-container{
-    background: #05171f url('/img/homepage.jpg') center center no-repeat;
+    background: #05171f url('img/homepage.jpg') center center no-repeat;
     background-size:cover;
     height: 800px;
     margin: 0 0 0 0;
@@ -275,7 +275,7 @@ text-align:center;
     border-radius: 0px; 
 }*/
 .imgClass {     
-    background-image: url('/img/enterBTN.png');
+    background-image: url('img/enterBTN.png');
     background-size: 100px;
     background-position: 380px 0px;
     background-repeat: no-repeat;
