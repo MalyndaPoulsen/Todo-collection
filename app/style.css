@@ -211,7 +211,7 @@ p{
    font-weight: 100px;
 }
 .welcome-container{
-    background: #05171f url('../img/homepage.jpg') center center no-repeat;
+    background: #05171f url('../img/HomePage.jpg') center center no-repeat;
     background-size:cover;
     height: 800px;
     margin: 0 0 0 0;
